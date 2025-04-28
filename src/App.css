@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+}
+header h1 {
+  text-align: center;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.search,
+.dropdown {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+.card {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.status {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.status.error {
+  color: red;
+}
