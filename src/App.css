@@ -21,22 +21,124 @@ header h1 {
   padding: 0.5rem;
   font-size: 1rem;
 }
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
+
 .card {
   background: white;
   border-radius: 0.5rem;
-  padding: 1rem;
-  text-align: center;
+  overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card .img-container {
+  background: #f0f0f0;
+  padding: 1rem;
+}
+
+.card .img-container img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
 .status {
   text-align: center;
   font-size: 1.2rem;
 }
 .status.error {
   color: red;
+}
+
+.type {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 0.2rem;
+  text-transform: capitalize;
+}
+
+.type.fire {
+  background-color: #f08030;
+}
+
+.type.water {
+  background-color: #6890f0;
+}
+
+.type.grass {
+  background-color: #78c850;
+}
+
+.type.electric {
+  background-color: #f8d030;
+}
+
+.type.ice {
+  background-color: #98d8d8;
+}
+
+.type.fighting {
+  background-color: #c03028;
+}
+
+.type.poison {
+  background-color: #a040a0;
+}
+
+.type.ground {
+  background-color: #e0c068;
+}
+
+.type.flying {
+  background-color: #a890f0;
+}
+
+.type.psychic {
+  background-color: #f85888;
+}
+
+.type.bug {
+  background-color: #a8b820;
+}
+
+.type.rock {
+  background-color: #b8a038;
+}
+
+.type.ghost {
+  background-color: #705898;
+}
+
+.type.dragon {
+  background-color: #7038f8;
+}
+
+.type.dark {
+  background-color: #705848;
+}
+
+.type.steel {
+  background-color: #b8b8d0;
+}
+
+.type.fairy {
+  background-color: #ee99ac;
+}
+
+.type.normal {
+  background-color: #a8a878;
 }
