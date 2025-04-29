@@ -68,7 +68,6 @@ The project follows a standard React app organization for clarity and scalabilit
 ## 🎥 Demo & Live Preview
 
 - 🔗 **Live Demo:** [Pokemon Explorer on Vercel](https://poke-api-two-vert.vercel.app/)
-- 📺 **Demo Video:** _Coming soon_ (a walkthrough of the app features and usage).
 
 ---
 
