@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Pokémon Explorer</h1>
+        <h1>Pokemon Explorer</h1>
       </header>
       <div className="controls">
         <SearchBar value={searchTerm} onChange={setSearchTerm} />
